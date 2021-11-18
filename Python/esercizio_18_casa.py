@@ -1,7 +1,7 @@
 def isPrimo(num):
     contatore,divisore = 0,2
     primo = False
-    while divisore<=num/2 and contatore == 0:          
+    while divisore<=(numero*(1/2)) and contatore == 0:          
         if num%divisore == 0:
             contatore=+1
         divisore+=1
