@@ -1,4 +1,3 @@
-numeri = int(input("Inserisci il numero di numeri da inserire: "))
 lista = []
 risposta = "Si"
 
