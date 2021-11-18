@@ -3,7 +3,7 @@ lista = []
 risposta = "Si"
 
 while(risposta == "Si"):
-    num = float(input(f"Inserisci il numero della cella {cont}: "))
+    num = int(input(f"Inserisci un nuovo numero: "))
     lista.append(num)
     risposta = input("Vuoi inserire un altro numero? (Si o No)")
 print(lista)
