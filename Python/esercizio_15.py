@@ -1,9 +1,9 @@
 numeri = int(input("Inserisci il numero di numeri da inserire: "))
 lista = []
-cont = 0
+risposta = "Si"
 
-while(cont < numeri):
+while(risposta == "Si"):
     num = float(input(f"Inserisci il numero della cella {cont}: "))
     lista.append(num)
-    cont = cont + 1
+    risposta = input("Vuoi inserire un altro numero? (Si o No)")
 print(lista)
