@@ -14,9 +14,8 @@ def isPrimo(num):
 
 contatorePrimi = 0
 mille = 1000
-numero = 1
 
-for numero in range(mille):
+for numero in range(2,mille):
     isPrimo(numero)
 
     if isPrimo(numero) == True:
