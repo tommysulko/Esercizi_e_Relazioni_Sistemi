@@ -1,4 +1,4 @@
-palindroma = lambda stringa :True if(stringa == stringa[::-1])else False
+palindroma = lambda stringa :(stringa == stringa[::-1])
 
 
 stringa = input("Inserisci una stringa: ")
