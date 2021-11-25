@@ -5,6 +5,9 @@ lista = ["Tommaso","CiiC","luca","porco"]
 parolePalindrome = []
 paroleMaiuscole = []
 
+#paroleMaiuscole = [parola for parola in lista if maiuscola(parola)]
+#parolePalindrome = [parola for parola in lista if palindroma(parola)]
+#altro metodo
 
 for parole in lista:
     if maiuscola(parole):
