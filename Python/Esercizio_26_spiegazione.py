@@ -9,6 +9,7 @@ from turtle import Turtle, Screen
 """
 Queste tre linee di codici servono per disegnare una riga attraverso python.
 Cambiando il numero all'interno di foward() si può allungare la linea che si va a creare.
+Turtle() e Screen() servono pre impostare lo sfondo e la "penna"
 """
 
 """
@@ -47,7 +48,7 @@ Con il modulo turtle si possono implementare i loop in modo da riuscire a stampa
 
 """
 Con questo loop creiamo una riga e cambiamo direzione verso destra di 90 gradi.
-Dopo con il loop ricreriamo la stessa riga e ma verso una direzione diversa. Questo per un totale
+Dopo con il loop ricreriamo la stessa riga con una direzione diversa. Questo per un totale
 di 4 volte creando un quadrato.
 """
 
@@ -60,7 +61,9 @@ for i in range(30):
     tartaruga.right(25)
 
 """
-
+Invece qua abbiam un ciclo all'interno di un altro ciclo. Nel ciclo all'interno disegno una linea
+e poi cambio direzione di 90 gradi.Questo 4 volte creando un quadrato. Poi con il ciclo esterno
+cambio direzione di 25 gradi. Il cilo esterno lo faccio per 30 volte quindi disegno 30 quadrati.
 """
 
 
