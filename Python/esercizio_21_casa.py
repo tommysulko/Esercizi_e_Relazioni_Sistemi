@@ -1,4 +1,4 @@
-maiuscola = lambda stringa :True if((stringa[0] >= 'A') & (stringa[0] <= 'Z'))else False
+maiuscola = lambda stringa :(stringa[0] >= 'A') & (stringa[0] <= 'Z')
 
 stringa = input("Inserisci una stringa: ")
 
