@@ -27,6 +27,11 @@ class stella():
         #else:
             #stella(countRepeat)
 
-for _ in range(50):
-    stellax = stella(random.randint(-280,280),random.randint(-280,280),random.randint(10,30))
-    stellax.draw()
+
+def main():
+    for _ in range(50):
+        stellax = stella(random.randint(-280,280),random.randint(-280,280),random.randint(10,30))
+        stellax.draw()
+
+if __name__ == "__main__":
+    main()
